@@ -1,7 +1,7 @@
 package com.adu.api.controller;
 
-import com.adu.api.model.Project;
-import com.adu.api.service.ProjectService;
+import com.adu.api.model.Address;
+import com.adu.api.service.AddressService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
@@ -16,15 +16,15 @@ import reactor.core.publisher.Mono;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-@WebFluxTest(ProjectController.class)
+@WebFluxTest(AddressController.class)
 @ExtendWith(SpringExtension.class)
-class ProjectControllerTest {
+class AddressControllerTest {
 
     @Autowired
     private WebTestClient webClient;
 
     @Mock
-    private ProjectService projectService;
+    private AddressService projectService;
 /* 
     @Test
     void getAllProjects_ShouldReturnProjects_WhenProjectsExist() {
