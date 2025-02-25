@@ -1,6 +1,6 @@
 package com.adu.api.repository;
 
-import com.adu.api.model.Project;
+import com.adu.api.model.Address;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataR2dbcTest
-class ProjectRepositoryTest {
+class AddressRepositoryTest {
 /* 
     @Autowired
     private ProjectRepository projectRepository;

@@ -28,10 +28,10 @@
     </properties>
 
     <groupId>com.adu</groupId>
-    <artifactId>projects-api</artifactId>
+    <artifactId>address-api</artifactId>
     <version>1.0.0</version>
-    <name>projects-api</name>
-    <description>projects-api</description>
+    <name>address-api</name>
+    <description>address-api</description>
     <url/>
     <licenses>
         <license/>
